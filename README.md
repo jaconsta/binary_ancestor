@@ -39,5 +39,5 @@ Run the test
 
 ```
 export PYTHONPATH=src/
-
+python -m unittest src/__test__/test_binary_ancestor.py
 ```
