@@ -1,6 +1,6 @@
 import unittest
 
-from src.node import Node
+from node import Node
 
 
 class TestBinaryAncestor(unittest.TestCase):
@@ -31,3 +31,5 @@ class TestBinaryAncestor(unittest.TestCase):
         self.assertEqual(tree.is_parent(51, 37), 49)
         self.assertEqual(tree.is_parent(76, 85), 84)
 
+if __name__ == '__main__':
+    unittest.main()

@@ -1,6 +1,6 @@
 from flask import Blueprint, request, jsonify
 
-from src.node import Node
+from node import Node
 
 tree_bp = Blueprint('tree', __name__, url_prefix='/tree')
 nodes_tree = Node()
